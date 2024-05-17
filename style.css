@@ -1,0 +1,55 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+/* [disabled]{ cursor:not-allowed; opacity: 0.5;} */
+body{ background:#35323242 ; color: #fff; font-family:sans-serif; 
+display: flex;
+align-items: center;
+justify-content: center;
+ min-height: 100vh;
+ flex-direction: column;
+ background: url(img/watch2.jpg) no-repeat center top/cover; 
+ 
+}
+.stopwatch{ background: #000; padding: 20px 25px; border-radius: 10px;}
+.timer{ font-size: 60px ; font-weight: 700; width: 240px;}
+ .button{ margin-top: 20px;}
+.btn{ padding: 12px 20px; border-radius: 5px; color: #fff; font-size: 15px; border: 2px solid black;} 
+
+#startbtn { background: green;}
+#pausebtn{ background: red; }
+#resetbtn{background:blue;}
+
+#startbtn:active{ background: rgb(85, 146, 85);}
+#pausebtn:active{ background: rgb(207, 102, 102);}
+#resetbtn:active{background: rgb(104, 104, 199);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
